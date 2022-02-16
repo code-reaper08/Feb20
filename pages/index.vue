@@ -1,7 +1,6 @@
 <template>
   <div>
     <SectionOne />
-    <!-- <SectionOne /> -->
   </div>
 </template>
 

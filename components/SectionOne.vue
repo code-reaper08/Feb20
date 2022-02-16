@@ -48,9 +48,16 @@
       </h1>
     </div>
     <div class="navigator__pane flex justify-center">
-      <p class="text-white italic text-sm font-semibold">
+      <p class="text-white italic text-sm font-semibold mx-auto">
         Wish me a chickenfull' birthday
       </p>
+      <NuxtLink to="/me">
+        <p
+          class="text-white italic text-sm font-semibold mr-10 md:bg-black rounded-lg px-2 py-1 cursor-pointer"
+        >
+          See me →
+        </p>
+      </NuxtLink>
     </div>
   </div>
 </template>
